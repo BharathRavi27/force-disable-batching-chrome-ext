@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "transform": {
+          "queryTransform": {
+            "addOrReplaceParams": [
+              { "key": "FORCE_DISABLE_BATCHING", "value": "true" }
+            ]
+          }
+        }
+      }
+    },
+    "condition": {
+      "urlFilter": "*",
+      "resourceTypes": ["main_frame", "sub_frame"]
+    }
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Add FORCE_DISABLE_BATCHING Query Param",
+  "version": "1.0",
+  "description": "Automatically adds FORCE_DISABLE_BATCHING=true query param to every URL.",
+  "permissions": ["declarativeNetRequestWithHostAccess"],
+  "host_permissions": ["<all_urls>"],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ruleset",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  },
+  "action": {
+    "default_popup": "index.html"
+  }
+}
