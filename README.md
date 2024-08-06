@@ -5,7 +5,7 @@ Automatically adds FORCE_DISABLE_BATCHING=true query param to every URL
 ## How to add to chrome?
 
 - Clone the repo
-- Open chrome://extensions/
+- Open [chrome://extensions/](chrome://extensions/)
 - Toggle 'Developer mode' option on the right top
 - Click on 'Load unpacked' CTA on the left top
 
